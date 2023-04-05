@@ -15,7 +15,7 @@ public class InputOutput{
     jumlahSks = scanner.nextInt();
 
     System.out.print("Masukkan IPK Sementara : ");
-    IPK = scanner.nextdouble();
+    IPK = scanner.nextDouble();
 
     double jumlah = IPK * jumlahSks;
     System.out.print("Total Nilai = "+jumlah);
